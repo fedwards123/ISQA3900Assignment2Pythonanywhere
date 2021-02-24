@@ -130,3 +130,5 @@ LOGOUT_REDIRECT_URL = '/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = Path(BASE_DIR, 'media')
+
+STATIC_ROOT = Path(BASE_DIR, 'static')
